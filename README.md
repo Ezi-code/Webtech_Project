@@ -13,8 +13,9 @@
 ```
 set FLASK_APP=main
 ```
-For mac and linux users, replace the *set* with *export* 
-lunch python from your terminal and execute the following commands. It works on all OS(mac, linux and windows) 
+For mac and linux users, replace the *set* with *export*.
+
+lunch python from your terminal and execute the following commands to set up the admin username and password. It works on all OS(mac, linux and windows) 
  ```
  >>> from main import models 
  >>> from main.models import db
